@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Tab Component</title>
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+      <link rel="stylesheet" href="./css/style.css">
+      <link rel="stylesheet" href="./css/responsive.css">
+   </head>
+   <body>
+      <div class="container">
+         <div class="components">
+            <div class="components-btn-container">
+               <button class="btn component--btn-1 component--btn__active" data-tab="1">
+               Download
+               </button>
+               <button class="btn component--btn-2" data-tab="2">
+               Upload
+               </button>
+               <button class="btn component--btn-3" data-tab="3">
+               Bookmark
+               </button>
+            </div>
+            <div class="component--content component--content-1 component--content__active">
+               <div class="icon">
+                  <i class="fas fa-cloud-download-alt"></i>
+               </div>
+               <div class="content">
+                  <h3>Download anything you want</h3>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et cum dignissimos dolorum debitis itaque ullam quam error quis ex impedit. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Libero, dolorem!</p>
+               </div>
+            </div>
+            <div class="component--content component--content-2">
+               <div class="icon">
+                  <i class="fas fa-cloud-upload-alt"></i>
+               </div>
+               <div class="content">
+                  <h3>Upload anything you want</h3>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et cum dignissimos dolorum debitis itaque ullam quam error quis ex impedit. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Libero, dolorem!</p>
+               </div>
+            </div>
+            <div class="component--content component--content-3">
+               <div class="icon">
+                  <i class="fas fa-bookmark"></i>
+               </div>
+               <div class="content">
+                  <h3>Bookmark anything you want</h3>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et cum dignissimos dolorum debitis itaque ullam quam error quis ex impedit. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Libero, dolorem!</p>
+               </div>
+            </div>
+         </div>
+      </div>
+      <script src="index.js"></script>
+   </body>
+</html>
