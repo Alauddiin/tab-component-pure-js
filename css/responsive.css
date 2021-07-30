@@ -1,0 +1,87 @@
+/* meadium layout */
+@media screen and (min-width:992px) and (max-width:1200px) {
+    .container{
+        width:970px;
+    }
+}
+
+/* tab layout */
+@media screen and (min-width:768px) and (max-width:991px) {
+    .container{
+        width:750px;
+    }
+    .components{
+    width:85%;
+    }
+    .btn{
+    width:15rem;
+    padding: 8px 30px;
+    }
+    .component--content{
+        grid-template-columns: 15% 75%;
+    }
+}
+
+
+
+
+/* mobile layout */
+@media screen and (max-width:767px){
+    .container{
+        width:300px;
+    }
+    .components{
+        width:90%;
+        margin: 0 auto;
+        padding:0;
+
+
+
+    }
+    .components-btn-container{
+        width: 100%;
+    }
+    .btn{
+        width:8rem;
+        padding: 6px 8px;
+        font-size: 1.4rem;
+    }
+    .component--content{
+        width: 100%;
+        padding: 4rem 0;
+        grid-template-columns: 100%;
+    }
+    .component--content .content{
+        text-align: center;
+        padding: 10px 10px;
+    }
+    .component--content .content i{
+        font-size: 3rem;
+        width:4rem;
+        height: 4rem;
+        line-height: 4rem;
+
+    }
+    .component--content .content h3{
+        font-size: 1.4rem;
+        text-align: center;
+
+    }
+    .component--content .content p{
+        font-size: 1.4rem;
+        text-align: justify;
+
+    }
+   
+}
+
+
+/* medium mobile */
+@media screen and (min-width:480px) and (max-width:767px){
+
+    .container{
+        width:90%;
+    }
+
+
+}
